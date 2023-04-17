@@ -136,13 +136,50 @@ header{
     font-size: 30px;
     color: #fff;
 }
-#homepage li{
-    font-size: 30px;
-    list-style-type: square;
-    text-align: center;
+
+#champ{
+    text-align: center;  
     color: #fff;
-    list-style-position: inherit;
+    font-size: 20px;
+    
 }
+#homepage li{
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+#location{
+    text-align: center; 
+    color: #fff;
+    font-size: 30px;
+}
+#ruleslist a{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    
+    
+}
+#ruleslist li{
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    font-size: 30px;
+}
+#homeheader{
+    text-align: center;
+}
+.contactnav li{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    
+}
+
+
+
 
 
 

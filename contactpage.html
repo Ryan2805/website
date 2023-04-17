@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Contact Us, send a query, snooker"/>
+    
+    <nav>
+        <ul class="contactnav">
+            <li id="active"><a href="index.html">Home</a> </li>
+           
+        </ul>
+    </nav>
+    <style>
+        body{
+           font-family: 'Times New Roman', Times, serif;
+           background-image: url(images/contact.jpg);
+           background-repeat:no-repeat;
+           background-size: cover;
+           margin: 10px;
+        }
+        main{
+            margin: 15px 200px;
+            padding: 20px;
+            border: black;
+            background:white;
+            min-height: 500px;
+
+        }
+        header p{
+            font-style: italic;
+            text-align: center;
+            font-weight: 900;
+        }
+        .required{
+            font-weight: bold;
+            color: red;
+        }
+        label{
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            text-align: right;
+        }
+        input{
+            margin-left: 1em;
+            margin-bottom: .5em;
+            width: 220px;
+
+
+        }
+        #button #reset{
+            margin-top: 0.5em;
+            width: 8em;
+            background-color: orange;
+            border: 2px solid black;
+        }
+    </style>
+
+</head>
+    <body>
+        <header>
+            <p> For more snooker information please complete and submit</p>
+        </header>
+        <main>
+            <section>
+                <h3>Please Enter the following information</h3>
+                <form action="http:/foo.com" method="put">
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name"  required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="georgeelliot@example.com"><br>
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+
+                </form>
+                <p style="margin-left: 138px;"><span class="required">*</span><em> indicates a required field</em></p>
+            </section>
+        </main>
+    </body>
+</html>
